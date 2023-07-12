@@ -89,7 +89,7 @@ const [clicksearchbar, setclicksearchbar] = useState("");
     <div class="relative flex flex-col justify-center items-center overflow-hidden bg-cover bg-no-repeat image h-[600px]" >
         <div class=" text-black text-xl font-bold">Not sure where to go? Perfect.</div>
         <div class="m-5">
-            <button class="rounded-full px-10 py-4 hover:drop-shadow-2xl text-base text-purple-500 font-semibold bg-white drop-shadow-md">I'm flexible</button>
+            <button class="rounded-full px-10 py-4 hover:drop-shadow-2xl text-base text-purple-500 font-semibold bg-white drop-shadow-md">I&apos;m flexible</button>
         </div>
     </div>
 
