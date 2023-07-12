@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.image{background-image: url('https://airbnb-clone-wine.vercel.app/_next/image?url=https%3A%2F%2Flinks.papareact.com%2F0fm&w=1920&q=75');}
+.firstimage{background-image: url('https://airbnb-clone-wine.vercel.app/_next/image?url=https%3A%2F%2Flinks.papareact.com%2F5j2&w=1920&q=75');}
+.secimage{background-image: url('https://airbnb-clone-wine.vercel.app/_next/image?url=https%3A%2F%2Flinks.papareact.com%2F1to&w=1920&q=75');}
+
+.thirdimage{background-image: url('https://airbnb-clone-wine.vercel.app/_next/image?url=https%3A%2F%2Flinks.papareact.com%2F40m&w=1920&q=75');}
+
+.fourthimage{background-image: url('https://airbnb-clone-wine.vercel.app/_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fmsp&w=1920&q=75');}
+
+.fifthimage{background-image: url('https://airbnb-clone-wine.vercel.app/_next/image?url=https%3A%2F%2Flinks.papareact.com%2F2k3&w=1920&q=75');}
+
+.sixthimage{background-image: url('https://airbnb-clone-wine.vercel.app/_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fynx&w=1920&q=75');}
+
+.seventhimage{background-image: url('https://airbnb-clone-wine.vercel.app/_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fkji&w=1920&q=75');}
+
+.eigthimage{background-image: url('https://airbnb-clone-wine.vercel.app/_next/image?url=https%3A%2F%2Flinks.papareact.com%2F41m&w=1920&q=75');}
+
+.bnbimage{background-image: url('https://airbnb-clone-wine.vercel.app/_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fqd3&w=1920&q=75');}
+
+.outdoorimage{background-image: url('https://airbnb-clone-wine.vercel.app/_next/image?url=https%3A%2F%2Flinks.papareact.com%2F4cj&w=1920&q=75');}
+
+.liveone{background-image: url('https://airbnb-clone-wine.vercel.app/_next/image?url=https%3A%2F%2Flinks.papareact.com%2F2io&w=1920&q=75');}
+
+.livetwo{background-image: url("https://airbnb-clone-wine.vercel.app/_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fq7j&w=1920&q=75");}
+
+.livethree{background-image: url("https://airbnb-clone-wine.vercel.app/_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fs03&w=1920&q=75");}
+
+.livefour{background-image: url("https://airbnb-clone-wine.vercel.app/_next/image?url=https%3A%2F%2Flinks.papareact.com%2F8ix&w=1920&q=75");}
