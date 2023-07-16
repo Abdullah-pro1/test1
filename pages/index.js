@@ -32,15 +32,15 @@ const [clicksearchbar, setclicksearchbar] = useState("");
            <div className="bnbimage  bg-cover h-12 w-40 py-3 rounded-lg "></div>
             
         </div>
-        <div class="flex items-center rounded-full bg-white hover:drop-shadow-lg border-2 border-gray-200 m-1 p-2">
-            <input type="text" placeholder="    Start your search" onChange={(e)=>{setclicksearchbar(e.target.value)}} class="flex-grow text-gray-500 focus:outline-none">
+        <div class="flex items-center rounded-full bg-white hover:drop-shadow-lg border-2 border-gray-200 m-1 p-2 md:visible invisible">
+            <input type="text" placeholder="    Start your search" onChange={(e)=>{setclicksearchbar(e.target.value)}} class="flex-grow text-gray-500 focus:outline-none visible w-24 md:w-fit flex-grow">
                 
             </input>
             <FontAwesomeIcon className="text-lg px-2.5 py-2 h-8 text-white" icon={faMagnifyingGlass} />
         </div>
         <div class="flex justify-end items-center mx-1 p-2">
 
-            <div class="flex items-center rounded-full decoration-gray-500 hover:bg-gray-200 hover:cursor-pointer py-3 px-3 mx-2">
+            <div class="flex items-center rounded-full md:visible invisible decoration-gray-500 hover:bg-gray-200 hover:cursor-pointer py-3 px-3 mx-2">
                 Become a Host
             </div>
 
@@ -86,10 +86,10 @@ const [clicksearchbar, setclicksearchbar] = useState("");
       </div>
     </div>
 
-    <div class="relative flex flex-col justify-center items-center overflow-hidden bg-cover bg-no-repeat image h-[600px]" >
-        <div class=" text-black text-xl font-bold">Not sure where to go? Perfect.</div>
+    <div class="relative flex flex-col justify-center items-center overflow-hidden bg-cover bg-no-repeat image h-[600px] md:h-[400px] lg:h-[600px] xl:h[700px]" >
+        <div class=" text-black text-xl md:text-xl font-bold">Not sure where to go? Perfect.</div>
         <div class="m-5">
-            <button class="rounded-full px-10 py-4 hover:drop-shadow-2xl text-base text-purple-500 font-semibold bg-white drop-shadow-md">I&apos;m flexible</button>
+            <button class="rounded-full md:px-10 md:py-4 hover:drop-shadow-2xl text-base text-purple-500 font-semibold bg-white drop-shadow-md">I&apos;m flexible</button>
         </div>
     </div>
 
@@ -231,7 +231,7 @@ const [clicksearchbar, setclicksearchbar] = useState("");
             </div>
             </div>
               
-<div class="outdoorimage z-10 bg-cover mx-20 mt-10 h-96 w-200 rounded-lg relative">
+<div class="outdoorimage z-10 bg-cover xl:mx-20 mt-10 h-96 w-200 rounded-lg relative">
   <h3 class=" font-normal mx-10 mt-20 absolute top-2 left-3 text-3xl">The Greatest <br></br> Outdoor</h3>
   <div class=" my-24  mx-10 absolute top-20">wishlist created by abdullah</div>
   <button class="rounded-xl absolute bottom-10 text-white bg-black left-16 h-12 w-32 mx-10 my-44 top-10 transform -translate-x-1/2">Get Inspiration</button>
